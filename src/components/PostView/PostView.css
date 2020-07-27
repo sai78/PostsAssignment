@@ -1,0 +1,32 @@
+#post-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#post-tile-container{
+    margin: 30px;
+    width: 600px;
+    border: 1px solid rgba(0,0,0,.125);
+    overflow: auto;
+    max-height: calc(100vh - 115px);
+}
+
+#post-tile-container .post-title{
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    padding: 10px;
+}
+
+#post-tile-container .post-body{
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    padding: 10px;
+}
+#post-tile-container .post-comment-continer{
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    padding: 10px;
+}
+
+#post-tile-container .single-comment{
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    padding: 10px;
+}
